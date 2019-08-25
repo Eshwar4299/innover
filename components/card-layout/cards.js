@@ -1,6 +1,8 @@
 import React from 'react'
 
-const Cards = () => ( <
+const Cards = () => (
+
+    <
     main className = "main-area" >
     <
     div className = "centered" >
@@ -16,8 +18,8 @@ const Cards = () => ( <
     alt = "A banana that looks like a bird" / >
 
     <
-    /a> <
-    /article>
+    /a>  < /
+    article >
 
     <
     article className = "card" >
@@ -29,8 +31,10 @@ const Cards = () => ( <
     img src = "/static/tiles-images/productTile.png"
     alt = "Norwegian boller" / >
     <
-    /picture> <
-    /a> <
+    /picture>  < /
+    a >
+
+    <
     /article>
 
     <
@@ -43,8 +47,8 @@ const Cards = () => ( <
     img src = "/static/tiles-images/innoTile.png"
     alt = "A dinosaur wearing an aluminium jacket" / >
     <
-    /picture> <
-    /a> <
+    /picture> < /
+    a > <
     /article>
 
     <
@@ -57,8 +61,8 @@ const Cards = () => ( <
     alt = "A banana that looks like a bird" / >
 
     <
-    /a> <
-    /article>
+    /a> < /
+    article >
 
     <
     article className = "card" >
@@ -70,8 +74,8 @@ const Cards = () => ( <
     img src = "/static/tiles-images/innoTile.png"
     alt = "A dinosaur wearing an aluminium jacket" / >
     <
-    /picture> <
-    /a> <
+    /picture> < /
+    a > <
     /article>
 
     <
@@ -84,8 +88,8 @@ const Cards = () => ( <
     alt = "A banana that looks like a bird" / >
 
     <
-    /a> <
-    /article>
+    /a> < /
+    article >
 
     <
     article className = "card item4" >
@@ -97,8 +101,8 @@ const Cards = () => ( <
     alt = "A banana that looks like a bird" / >
 
     <
-    /a> <
-    /article>
+    /a> < /
+    article >
 
 
     <
@@ -117,7 +121,6 @@ const Cards = () => ( <
    }
   img {
       display: block;
-      border: 0;
       opacity:.8;
       height: 100%;
       width:100%;
@@ -131,8 +134,6 @@ const Cards = () => ( <
       display:flex;
       background: white;
       margin-bottom: 1em;
-      flex-basis:auto;
-      justify-content: space-evenly;
   }
 
   
@@ -158,11 +159,11 @@ const Cards = () => ( <
   .card-content p {
       font-size: 80%;
   }
+
   .cards {
     display: flex;
-    flex-flow: wrap;
     flex-shrink: 2;
-}
+    }
   
   /* Flexbox stuff */
   
@@ -185,17 +186,14 @@ const Cards = () => ( <
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-      .card {
-
-      }
       .item4{
-        width : 62% !important;
+        width : 62%;
     }
   }
 `
     } <
-    /style> <
-    /main>
+    /style> < /
+    main >
 )
 
 export default Cards
