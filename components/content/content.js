@@ -34,8 +34,9 @@ const Content = () => (
 
     <style jsx>{`
     .hero {
-        width: 100%;
-        color: #333;
+      margin:auto;
+      width:90%;
+      color: #333;
       }
       .title {
         margin: 0;
