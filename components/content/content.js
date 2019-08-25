@@ -26,7 +26,7 @@ const Content = () => (
       <Link href='https://github.com/zeit/next.js'>
         <a className='card'>
           <h3>Community &rarr;</h3>
-          <p>There was always a room for imporovement our community should help people to achieve that</p>
+          <p>There was always a room for improvement our community should help people to achieve that</p>
         </a>
       </Link>
     </div>
