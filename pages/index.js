@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/navigation/nav'
 import Content from '../components/content/content';
+import Footer from '../components/footer/footer';
 
 const Home = () => (
   <div>
@@ -12,6 +12,7 @@ const Home = () => (
 
     <Nav />
     <Content />
+    <Footer />
   </div>
 )
 
